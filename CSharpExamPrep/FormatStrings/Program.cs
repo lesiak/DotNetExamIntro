@@ -38,8 +38,24 @@ namespace FormatStrings {
 
             DateTime dt = new DateTime(2008, 4, 10);
             Console.WriteLine(dt.ToString("d",CultureInfo.CreateSpecificCulture("pl-PL")));
+
+            Console.WriteLine();
+            testFormatNum();
             
             Console.ReadLine();
+        }
+
+        static void testFormatNum() {
+            Console.WriteLine("testFormatNum");
+            decimal d = 1234.56M;
+            int i = 9;
+            d = i;
+            //i = d;  narrowing
+            Console.WriteLine(d.ToString("c"));
+            Console.WriteLine(d.ToString("C"));
+            Console.WriteLine("{0:C}", d);
+            Console.WriteLine("{1}, {2}", d, d, d);
+            Console.WriteLine("{Veni}");
         }
     }
 }
