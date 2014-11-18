@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToXmlFirstLook", "LinqToXmlFirstLook\LinqToXmlFirstLook.csproj", "{1E9A5162-2DDF-4527-9DA1-C2FA7D0433D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructingXmlDocs", "ConstructingXmlDocs\ConstructingXmlDocs.csproj", "{8B0B84F2-C2DD-4C04-BCE2-0C1412D3DB1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToXmlWinApp", "LinqToXmlWinApp\LinqToXmlWinApp.csproj", "{9BAF87E4-CD81-47B1-A2B5-58E1F1D7DB57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E9A5162-2DDF-4527-9DA1-C2FA7D0433D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9A5162-2DDF-4527-9DA1-C2FA7D0433D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9A5162-2DDF-4527-9DA1-C2FA7D0433D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9A5162-2DDF-4527-9DA1-C2FA7D0433D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0B84F2-C2DD-4C04-BCE2-0C1412D3DB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0B84F2-C2DD-4C04-BCE2-0C1412D3DB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0B84F2-C2DD-4C04-BCE2-0C1412D3DB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0B84F2-C2DD-4C04-BCE2-0C1412D3DB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BAF87E4-CD81-47B1-A2B5-58E1F1D7DB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAF87E4-CD81-47B1-A2B5-58E1F1D7DB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAF87E4-CD81-47B1-A2B5-58E1F1D7DB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAF87E4-CD81-47B1-A2B5-58E1F1D7DB57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
