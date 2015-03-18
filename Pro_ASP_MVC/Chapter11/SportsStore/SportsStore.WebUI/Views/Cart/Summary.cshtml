@@ -1,0 +1,22 @@
+﻿
+@model SportsStore.Domain.Entities.Cart
+
+@using (Html.BeginForm("Index", "Cart", FormMethod.Post, new { @class = "navbar-form navbar-right hidden-xs" })) {            
+    @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+    <input type="submit" class="btn btn-default" value="Checkout" />
+}
+
+<div class="navbar-right visible-xs">
+    <a href=@Url.Action("Index", "Cart", new { returnUrl = Request.Url.PathAndQuery })
+       class="btn btn-default navbar-btn">
+        <span class="glyphicon glyphicon-shopping-cart"></span>
+    </a>
+</div>
+
+<div class="navbar-text navbar-right">
+    <b class="hidden-xs">Your cart:</b>
+    @Model.Lines.Sum(x => x.Quantity) item(s),
+    @Model.ComputeTotalValue().ToString("c")
+</div>
+
+
